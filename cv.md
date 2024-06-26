@@ -18,6 +18,22 @@ I was editing HTML and CSS code, and I decided that I had to learn how to create
 **CMS**: Wordpress, Joomla
 
 ## Code examples
+```
+function solution(number){
+  let sum = 0;
+  
+  if (number < 0) {
+    return 0;
+  }
+  
+  for (i = 0; i < number; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      sum = sum + i;
+    }    
+  }
+  return sum;
+}
+```
 
 ## Experience
 Сайт яхт-клуба <https://serpentsveta.github.io/sail-club/>
