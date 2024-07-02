@@ -107,6 +107,7 @@ body {
 }
 
 .main__container {
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 50px;
@@ -224,6 +225,35 @@ pre {
 code {
     margin: 0;
     padding: 0;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #80264f;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 200px;
+}
+
+.footer-info {
+    color: #F9DCE4;
+    font-size: 24px;
+}
+
+.footer-info a {
+    color: #F9DCE4;
+    transition: all 0.5s;
+}
+
+.footer-info a:hover {
+    color: #fdb4c3;
 }
 
 @media (max-width: 768px) {
