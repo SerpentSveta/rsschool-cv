@@ -36,6 +36,7 @@ body {
 
 .header {
     background-color: #80264f;
+    border-bottom-right-radius: 100px;
 }
 
 .nav-list {
@@ -79,9 +80,10 @@ body {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 30px;
+    /* border-radius: 50%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    filter: grayscale(0.2) brightness(1.05);
+    filter: grayscale(0.2) brightness(1.05); */
 }
 
 .section-main {
@@ -89,7 +91,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 15px solid #fdb4c3;
+    /* border-bottom: 15px solid #fdb4c3;
+    border-bottom-right-radius: 30px; */
 }
 
 .section-main__description {
@@ -112,6 +115,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     column-gap: 50px;
+    background-color: #F9DCE4;
+    border-radius: 30px;
 }
 
 .section__title {
@@ -228,15 +233,21 @@ code {
     padding: 0;
 }
 
+#english,
+#education {
+    border: none;
+}
+
 .footer {
     padding: 20px;
     background-color: #80264f;
+    border-top-left-radius: 100px;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
 }
 
 .footer__logo {
