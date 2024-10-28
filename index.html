@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Svetlana Aleksandrova</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-me">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#code-examples">Code examples</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#english">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section-main">
+                <img class="section-main__photo" src="./assets/img/photo_svetlana-aleksandrova.jpg"
+                    alt="Svetlana Aleksandrova">
+                <div class="section-main__description">
+                    <h1 class="section-title main-title">Svetlana Aleksandrova</h1>
+                    <p class="section-main__text">Junior Front-End Developer</p>
+                </div>
+            </section>
+            <div class="main__container">
+                <section class="section" id="contacts">
+                    <h2 class="section__title">Contacts</h2>
+                    <ul class="section__contacts">
+                        <li class="contacts__item contacts_adress">Shchyolkovo, Russia</li>
+                        <li class="contacts__item contacts_email"><span class="text-title">E-mail</span> <a
+                                href="mailto:sveta.aleksandrova@gmail.com">sveta.aleksandrova@gmail.com</a></li>
+                        <li class="contacts__item contacts_telegram"><span class="text-title">Telegram</span> <a
+                                href="https://t.me/SerpentSecret" target="_blank">@SerpentSecret</a></li>
+                        <li class="contacts__item contacts_github"><span class="text-title">GitHub</span> <a
+                                href="https://github.com/serpentsveta">SerpentSveta</a></li>
+                        <li class="contacts__item contacts_discord"><span class="text-title">Discord</span> <a
+                                href="https://discord.com/users/1187796616372027422" target="_blank">svetlana_52503</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="about-me">
+                    <h2 class="section__title">About me</h2>
+                    <div class="section__text">
+                        <p class="about-me-text">I’m a content manager.</p>
+                        <p class="about-me-text">At the start of my career, I worked at the advertising department of a
+                            tour operator. I was a catalog layout designer
+                            and also was engaged in site support.</p>
+                        <p class="about-me-text">I was editing HTML and CSS code, and I decided that I had to learn how
+                            to create it myself, instead of just editing and
+                            filling it in.</p>
+                    </div>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section__title">Skills</h2>
+                    <ul class="section__skills">
+                        <li class="skills__item"><span class="text-title">Basic level of:</span> HTML, CSS, Figma, Adobe
+                            Photoshop, Illustrator</li>
+                        <li class="skills__item"><span class="text-title">CMS:</span> Wordpress, Joomla</li>
+                    </ul>
+                    <h2 class="section__title" id="experience">Experience</h2>
+                    <div class="experience">Yacht Club website: <a class="experience-link" href="https://serpentsveta.github.io/sail-club/" target="_blank"
+                            rel="noopener noreferrer">https://serpentsveta.github.io/sail-club/</a>
+                    </div>
+                </section>
+                 <section class="section" id="code-examples">
+                    <h2 class="section__title">Code examples</h2>
+                    <code>
+function solution(number){ <br>
+  let sum = 0; <br>
+  if (number &lt; 0) {<br>
+    return 0;<br>
+  }<br>
+  for (i = 0; i &lt; number; i++) {<br>
+    if (i % 3 === 0 || i % 5 === 0) {<br>
+      sum = sum + i;<br>
+    }<br>
+  }<br>
+  return sum;<br>
+}
+                        </code>
+                </section>
+                 <section class="section" id="education">
+                    <h2 class="section__title">Education</h2>
+                    <ul class="section__skills">
+                        <li class="skills__item"><span class="text-title">University:</span> Russian International
+                            Academy of Tourism, RMAT</li>
+                        <li class="skills__item"><span class="text-title">Courses:</span> <a
+                                href="https://htmlacademy.ru/" target="_blank" rel="noopener noreferrer">HTML
+                                Academy</a>, <a href="https://code-basics.com/ru" target="_blank"
+                                rel="noopener noreferrer">Code Basics</a>, <a href="https://webcademy.ru/"
+                                target="_blank" rel="noopener noreferrer">Webcademy</a></li>
+                    </ul>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section__title">English</h2>
+                    <p>Pre-intermediate (А2)</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+            <div class="footer-info">2024 <a href="https://github.com/serpentsveta" target="_blank">SerpentSveta</a></div>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank"><img class="footer__logo" src="./assets/svg/rss.svg" alt="Логотип RS School"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
