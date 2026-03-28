@@ -1,4 +1,24 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1 {
+  margin: 0;
+  padding: 25px;
+  font-family: "Carme", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.27;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  }
+
 .cv-container {
+  width: 100%;
   max-width: 1190px;
   margin: 0 auto;
   display: flex;
@@ -11,6 +31,48 @@
 
 .right-column {
   width: 70%;
+}
+
+.left-column-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-line {
+  width: 130px;
+  height: 2px;
+  background-color: black;
+}
+
+.header-title-name span {
+  display: block;
+  text-align: right;
+}
+
+.title-name {
+  font-family: 'Mohave', sans-serif;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.title-lastname {
+  display: block;
+  font-family: 'Mohave', sans-serif;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.header-verical-line {
+  margin-top: 56px;
+  margin-left: 40px;
+  width: 2px;
+  height: 130px;
+  background-color: black;
 }
 
 .skills-icons {
