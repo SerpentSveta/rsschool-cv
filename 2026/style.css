@@ -1,0 +1,28 @@
+.cv-container {
+  max-width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  gap: 57px;
+}
+
+.left-column {
+  width: 30%;
+}
+
+.right-column {
+  width: 70%;
+}
+
+.skills-icons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.icon-telegram {
+  filter: invert(48%) sepia(93%) saturate(747%) hue-rotate(175deg);
+}
+
+.icon-discord {
+  filter: invert(32%) sepia(98%) saturate(747%) hue-rotate(202deg);
+}
