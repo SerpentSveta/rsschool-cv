@@ -192,3 +192,37 @@ footer {
 .footer__logo:hover {
   opacity: 0.5;
 }
+
+.nav-footer {
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  margin-top: 60px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.footer-menu li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background: black;
+  transition: 0.3s;
+}
+
+.footer-menu li a:hover::after {
+  width: 100%;
+}
