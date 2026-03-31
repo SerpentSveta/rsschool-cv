@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+
+h1 {
+  margin: 0;
+  padding: 25px 0;
+  font-family: 'Carme', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.27;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #000;
+  transition: all 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.cv-container {
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  gap: 57px;
+}
+
+.left-column {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: flex-end;
+}
+
+.right-column {
+  display: flex;
+  gap: 40px;
+}
+
+.verical-line {
+  margin-left: 40px;
+  flex-shrink: 0;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+
+.left-column-header {
+  margin-top: 147px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.header-title-name {
+  width: 100%;
+}
+
+.header-title-name span {
+  display: block;
+  text-align: right;
+}
+
+.title-name {
+  font-family: 'Mohave', sans-serif;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.title-lastname {
+  display: block;
+  font-family: 'Mohave', sans-serif;
+  font-size: 31px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.header-verical-line {
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 2px;
+  height: 130px;
+  background-color: black;
+}
+
+.main-img {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 253px;
+}
+
+.skills-icons img {
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.skills-icons img:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.skills-icons,
+.contacts-icons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.left-column-info {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+code {
+  background-color: #000;
+  color: #fff;
+}
+
+.contacts-icons img {
+  transition: all 0.3s;
+}
+
+.contacts-icons img:hover {
+  opacity: 0.5;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-info {
+  text-align: right;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
+.footer__logo {
+  margin-left: 82px;
+  width: 150px;
+  height: auto;
+}
+
+.footer__logo:hover {
+  opacity: 0.5;
+}
+
+.nav-footer {
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  margin-top: 60px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.footer-menu li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background: black;
+  transition: 0.3s;
+}
+
+.footer-menu li a:hover::after {
+  width: 100%;
+}
